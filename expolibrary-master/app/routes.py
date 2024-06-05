@@ -3570,7 +3570,7 @@ items = [
         "Titulo": "UAciência: Ciencias da Engenharia, Exatas, Saúde e Biotecnologia, e Sociais e Humanas 2012- 2019",
         "Autor": "Armindo Rodrigues e Luís Mendes Gomes",
         "Ano": 2021,
-        "Categoria": "Technologia",
+        "Categoria": "Tecnologia",
         "Sub_Categoria": "Biotecnologia e Engenharia",
         "Linguagem": "Português",
         "Material": "Não Plastificado"
