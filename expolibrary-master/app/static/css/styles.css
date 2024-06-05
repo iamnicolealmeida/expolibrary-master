@@ -150,3 +150,12 @@ body {
     padding-right: 70px;
     width: 30%;
 }
+
+@media (max-width: 768px){
+    .container {
+        max-width: 300px;
+        margin: 0 auto;
+        font-family: "Verdana";
+        min-height: 100vh;
+    }
+}
