@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("http://localhost:8000/app/img/background.png");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: "Verdana";
+    min-height: 100vh;
+}
+
+.form-control {
+    margin-bottom: 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 100px;
+}
+
+.lista {
+    text-align: center;
+    font-weight: bold;
+}
+
+.cabecalho {
+    margin-bottom: 50px;
+    padding-top: 50px; padding-bottom: 50px;
+    font-family: 'Verdana'; font-size: 26;
+    text-align: center;
+    background-image: url("http://localhost:8000/app/img/cabecalho/cabecalho1.png");
+}
+
+.rodape {
+    margin-top: 5px; 
+    padding-top:50px; padding-bottom: 50px;
+    font-family: 'Verdana'; font-size: 12;
+    text-align: center;
+    background-color: #072359; 
+    color: white;
+}
+
+.logo {
+    width: 150px; 
+    height: auto; 
+    position: absolute; 
+    top: 1px; 
+    left: 10px; 
+}
+
+.logotopo {
+    width: 100px; 
+    height: auto; 
+    position: absolute; 
+    top: 1px; 
+    right: 10px; 
+}
+
+
+.logor {
+    width: 500px; 
+    height: auto; 
+    position: center; 
+    top: auto; 
+    left: 10px; 
+}
+
+.logo-link {
+    text-decoration: none; 
+}
+
+.table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #F0F8FF;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table th {
+    background-image: url("http://localhost:8000/app/img/tabela.png");
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Ajuste de largura específica para colunas */
+.table th:nth-child(1), .table td:nth-child(1) {
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 30%;
+}
+
+.table th:nth-child(2), .table td:nth-child(2) {
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 30%;
+}
+
+.table th:nth-child(3), .table td:nth-child(3) {
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 30%;
+}
+
+.table th:nth-child(4), .table td:nth-child(4) {
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 15%;
+}
+
+.table th:nth-child(5), .table td:nth-child(5) {
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 30%;
+}
+
+.table th:nth-child(6), .table td:nth-child(6) {
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 30%;
+}
+
+.table th:nth-child(7), .table td:nth-child(7) {
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 30%;
+}

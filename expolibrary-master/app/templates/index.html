@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en, pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nicole Almeida, Diogo Pacheco">
+    <meta name="description" content="Website de base de dados dos livros do Expolab">
+    <meta name="keywords" content="biblioteca, livros, library, books, centro, expolab">
+    
+    <link rel="icon" 
+    href="http://localhost:8000/app/img/icones/logo.png" type="image/x-icon">
+
+    <title>ExpoLibrary</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+<div  class="cabecalho">
+    <img src= "http://localhost:8000/app/img/logotipo.png" alt="Logotipo do site" class="logo">
+    <br>
+</div>
+<div class="container">
+        <h1 class="text-center"><span class="bold">ExpoLibrary</span></h1>
+    <br>
+    <form method="post" class="form-inline justify-content-center mb-4">
+        <center>
+        <input type="text" name="Titulo" class="form-control mr-2" placeholder="Titulo">
+        <input type="text" name="Autor" class="form-control mr-2" placeholder="Autor">
+        <select name="Categoria" class="form-control mr-2" placeholder="Categoria">
+            <option value="">Selecione</option>
+            <option value="Biologia">Biologia</option>
+        </select>
+        <input type="text" name="Sub_Categoria" class="form-control mr-2" placeholder="Sub-categoria">
+        <input type="text" name="Linguagem" class="form-control mr-2" placeholder="Língua">
+        <input type="text" name="Material" class="form-control mr-2" placeholder="Material">
+        <input type="text" name="Ano" class="form-control mr-2" placeholder="Ano">
+        <br>
+        <button type="submit" class="btn btn-primary">Filtrar</button>
+       
+    </form>
+    <br><br><br>
+    <h5 class="lista">LISTAGEM DE LIVROS:</h5>
+    <br>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Titulo</th>
+            <th>Autor</th>
+            <th>Ano</th>
+            <th>Categoria</th>
+            <th>Sub-categoria</th>
+            <th>Língua</th>
+            <th>Material</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for item in items %}
+            <tr>
+                <td>{{ item.Titulo }}</td>
+                <td>{{ item.Autor }}</td>
+                <td>{{ item.Ano }}</td>
+                <td>{{ item.Categoria }}</td>
+                <td>{{ item.Sub_Categoria }}</td>
+                <td>{{ item.Linguagem }}</td>
+                <td>{{ item.Material }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </center>
+    </table>
+    <br><br>
+</div>
+<div class="rodape">
+    <a href="#">
+    <img src="http://localhost:8000/app/img/hometopo.png" class="logotopo">
+    </a>
+    <h6>Desenvolvido pelo Expolab</h6>
+    <br>
+    <img src="http://localhost:8000/app/img/rodape/rodape2.png" class="logor">
+    <br><br><br>
+    <font size=2>
+    <p>© Expolab 2024</p>
+    </font>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
