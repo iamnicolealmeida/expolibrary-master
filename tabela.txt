@@ -1,0 +1,27 @@
+<table class="table">
+        <thead>
+        <tr>
+            <th>Titulo</th>
+            <th>Autor</th>
+            <th>Ano</th>
+            <th>Categoria</th>
+            <th>Sub-categoria</th>
+            <th>Língua</th>
+            <th>Material</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for item in items %}
+            <tr>
+                <td>{{ item.Titulo }}</td>
+                <td>{{ item.Autor }}</td>
+                <td>{{ item.Ano }}</td>
+                <td>{{ item.Categoria }}</td>
+                <td>{{ item.Sub_Categoria }}</td>
+                <td>{{ item.Linguagem }}</td>
+                <td>{{ item.Material }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </center>
+    </table>

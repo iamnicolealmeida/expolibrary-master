@@ -9,7 +9,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Biologia Marinha",
         "Linguagem": "Multi idiomas",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://rac-ciencias.org/wp/wp-content/uploads/2015/05/cubiertaXXV-708x1024.jpg"
     },
     {
         "Titulo": "Revista de La Academia Canaria de Ciencias - Volumen XXIX",
@@ -18,7 +19,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Biologia Marinha",
         "Linguagem": "Multi idiomas",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://rac-ciencias.org/wp/wp-content/uploads/2015/05/cubiertaXXV-708x1024.jpg"
     },
     {
         "Titulo": "Revista de La Academia Canaria de Ciencias - Volumen XXX",
@@ -306,7 +308,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Botânica",
         "Linguagem": "Espanhol e Inglês",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://pub-b36871d66d0d4bb883f07184ee48c5b6.r2.dev/livros%2Fanalesdeljardin%20(1).png"
     },
     {
         "Titulo": "Anales Del Jardín Botánico De Madrid - Volumen 53(2)",
@@ -315,7 +318,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Botânica",
         "Linguagem": "Espanhol e Inglês",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://pub-b36871d66d0d4bb883f07184ee48c5b6.r2.dev/livros%2Fanalesdeljardin%20(1).png"
     },
     {
         "Titulo": "Anales Del Jardín Botánico De Madrid - Volumen 54(1)",
@@ -324,7 +328,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Botânica",
         "Linguagem": "Espanhol e Inglês",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://pub-b36871d66d0d4bb883f07184ee48c5b6.r2.dev/livros%2Fanalesdeljardin%20(1).png"
     },
     {
         "Titulo": "Anales Del Jardín Botánico De Madrid - Volumen 54(2)",
@@ -333,7 +338,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Botânica",
         "Linguagem": "Espanhol e Inglês",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://pub-b36871d66d0d4bb883f07184ee48c5b6.r2.dev/livros%2Fanalesdeljardin%20(1).png"
     },
     {
         "Titulo": "Anales Del Jardín Botánico De Madrid - Volumen 55(1)",
@@ -342,7 +348,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Botânica",
         "Linguagem": "Espanhol e Inglês",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://pub-b36871d66d0d4bb883f07184ee48c5b6.r2.dev/livros%2Fanalesdeljardin%20(1).png"
     },
     {
         "Titulo": "Anales Del Jardín Botánico De Madrid - Volumen 55(2)",
@@ -351,7 +358,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Botânica",
         "Linguagem": "Espanhol e Inglês",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://pub-b36871d66d0d4bb883f07184ee48c5b6.r2.dev/livros%2Fanalesdeljardin%20(1).png"
     },
     {
         "Titulo": "Anales Del Jardín Botánico De Madrid - Volumen 56(1)",
@@ -360,7 +368,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Botânica",
         "Linguagem": "Espanhol e Inglês",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://pub-b36871d66d0d4bb883f07184ee48c5b6.r2.dev/livros%2Fanalesdeljardin%20(1).png"
     },
     {
         "Titulo": "Anales Del Jardín Botánico De Madrid - Volumen 56(2)",
@@ -369,7 +378,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Botânica",
         "Linguagem": "Espanhol e Inglês",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://pub-b36871d66d0d4bb883f07184ee48c5b6.r2.dev/livros%2Fanalesdeljardin%20(1).png"
     },
     {
         "Titulo": "Anales Del Jardín Botánico De Madrid - Volumen 57(1)",
@@ -378,7 +388,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Botânica",
         "Linguagem": "Espanhol e Inglês",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://pub-b36871d66d0d4bb883f07184ee48c5b6.r2.dev/livros%2Fanalesdeljardin%20(1).png"
     },
     {
         "Titulo": "Anales Del Jardín Botánico De Madrid - Volumen 57(2)",
@@ -387,7 +398,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Botânica",
         "Linguagem": "Espanhol e Inglês",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://pub-b36871d66d0d4bb883f07184ee48c5b6.r2.dev/livros%2Fanalesdeljardin%20(1).png"
     },
     {
         "Titulo": "Anales Del Jardín Botánico De Madrid - Volumen 58(1)",
@@ -396,7 +408,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Botânica",
         "Linguagem": "Espanhol e Inglês",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://pub-b36871d66d0d4bb883f07184ee48c5b6.r2.dev/livros%2Fanalesdeljardin%20(1).png"
     },
     {
         "Titulo": "Anales Del Jardín Botánico De Madrid - Volumen 58(2)",
@@ -405,7 +418,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Botânica",
         "Linguagem": "Espanhol e Inglês",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://pub-b36871d66d0d4bb883f07184ee48c5b6.r2.dev/livros%2Fanalesdeljardin%20(1).png"
     },
     {
         "Titulo": "Anales Del Jardín Botánico De Madrid - Volumen 59(1)",
@@ -414,7 +428,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Botânica",
         "Linguagem": "Espanhol e Inglês",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://pub-b36871d66d0d4bb883f07184ee48c5b6.r2.dev/livros%2Fanalesdeljardin%20(1).png"
     },
     {
         "Titulo": "Anales Del Jardín Botánico De Madrid - Volumen 59(2)",
@@ -423,7 +438,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Botânica",
         "Linguagem": "Espanhol e Inglês",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://pub-b36871d66d0d4bb883f07184ee48c5b6.r2.dev/livros%2Fanalesdeljardin%20(1).png"
     },
     {
         "Titulo": "Anales Del Jardín Botánico De Madrid - Volumen 60(1)",
@@ -432,7 +448,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Botânica",
         "Linguagem": "Espanhol e Inglês",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://pub-b36871d66d0d4bb883f07184ee48c5b6.r2.dev/livros%2Fanalesdeljardin%20(1).png"
     },
     {
         "Titulo": "Anales Del Jardín Botánico De Madrid - Volumen 61(1)",
@@ -441,7 +458,8 @@ items = [
         "Categoria": "Biologia",
         "Sub_Categoria": "Botânica",
         "Linguagem": "Espanhol e Inglês",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
+        "Imagem": "https://pub-b36871d66d0d4bb883f07184ee48c5b6.r2.dev/livros%2Fanalesdeljardin%20(1).png"
     },
     {
         "Titulo": "Catálogo de CD ROM'S",
@@ -450,7 +468,7 @@ items = [
         "Categoria": "Escolar",
         "Sub_Categoria": "Enciclopédia",
         "Linguagem": "Português",
-        "Material": "Não Plastificado"
+        "Material": "Não Plastificado",
     },
     {
         "Titulo": "Catálogo de Videogramas",
@@ -1537,7 +1555,7 @@ items = [
         "Autor": "Luís Moreira e Nuno Farinha",
         "Ano": 2011,
         "Categoria": "Biologia",
-        "Sub_Categoria": "Apiculturua",
+        "Sub_Categoria": "Apicultura",
         "Linguagem": "Português",
         "Material": "Não Plastificado"
     },
@@ -4495,7 +4513,6 @@ def index():
         Categoria_filter = request.form.get('Categoria')
         Sub_Categoria_filter = request.form.get('Sub_Categoria')
         Linguagem_filter = request.form.get('Linguagem')
-        Material_filter = request.form.get('Material')
         Ano_filter = request.form.get('Ano')
 
         if Titulo_filter:
@@ -4508,8 +4525,6 @@ def index():
             filtered_items = [item for item in filtered_items if Sub_Categoria_filter.lower() in item['Sub_Categoria'].lower()]
         if Linguagem_filter:
             filtered_items = [item for item in filtered_items if Linguagem_filter.lower() in item['Linguagem'].lower()]
-        if Material_filter:
-            filtered_items = [item for item in filtered_items if Material_filter.lower() in item['Material'].lower()]
         if Ano_filter:
             try:
                 Ano_filter = int(Ano_filter)

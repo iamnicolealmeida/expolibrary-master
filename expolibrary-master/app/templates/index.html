@@ -16,7 +16,7 @@
 </head>
 <body>
 <div  class="cabecalho">
-    <img src= "http://localhost:8000/app/img/logotipo.png" alt="Logotipo do site" class="logo">
+    <img src= "{{ url_for('static', filename='img/logotipo.png') }}" alt="Logotipo do site" class="logo">
     <br>
 </div>
 <div class="container">
@@ -60,7 +60,56 @@
             <option value="NaN">Sem Dados</option>
         </select>
 
-        <input type="text" name="Sub_Categoria" class="form-control mr-2" placeholder="Sub-categoria">
+        <select name="Sub_Categoria" class="form-control mr-2" placeholder="Sub-categoria">
+            <option value="">Selecionar Sub-Categoria</option>
+            <option value="Album de fotos">Álbum  de fotos</option>
+            <option value="Anatomia">Anatomia</option>
+            <option value="Antropologia">Antropologia</option>
+            <option value="Arqueologia">Arqueologia</option>
+            <option value="Apicultura">Apicultura</option>
+            <option value="Banda desenhada">Banda desenhada</option>
+            <option value="Biologia marinha">Biologia marinha</option>
+            <option value="Biologia marinha dos Açores">Biologia marinha dos Açores</option>
+            <option value="Biotecnologia">Biotecnologia</option>
+            <option value="Biosfera">Biosfera</option>
+            <option value="Botânica">Botânica</option>
+            <option value="Ciência Geral">Ciência geral</option>
+            <option value="Ciências da Natureza">Ciências da Natureza</option>
+            <option value="Dicionário">Dicionário</option>
+            <option value="DVD">DVD</option>
+            <option value="Ecologia">Ecologia</option>
+            <option value="Enciclopédia">Enciclopédia</option>
+            <option value="Energia">Energia</option>
+            <option value="Engenharia">Engenharia</option>
+            <option value="Entomologia">Entomologia</option>
+            <option value="Evolucionismo">Evolucionismo</option>
+            <option value="Geneologia">Geneologia</option>
+            <option value="Geobiológica">Geobiológica</option>
+            <option value="Geociência">Geociência</option>
+            <option value="Geofísica">Geofísica</option>
+            <option value="Geomorfologia">Geomorfologia</option>
+            <option value="Geotérmica">Geotérmica</option>
+            <option value="História">História</option>
+            <option value="Hist. Cultural de Portugal">História cultural de Portugal</option>
+            <option value="Hist. Cultural dos Açores">História cultural dos Açores</option>
+            <option value="Livro para colorir">Livros para Colorir</option>
+            <option value="Malacologia">Malacologia</option>
+            <option value="Manual escolar">Manual escolar</option>
+            <option value="Metodologia">Metodologia</option>
+            <option value="Meteorologia">Meteorologia</option>
+            <option value="Microbiologia">Microbiologia</option>
+            <option value="Museu">Museu</option>
+            <option value="Natureza">Natureza</option>
+            <option value="Paleontologia">Paleontologia</option>
+            <option value="Panfleto">Panfleto</option>
+            <option value="Pesca">Pesca</option>
+            <option value="Revista">Revista</option>
+            <option value="Roteiro">Roteiro</option>
+            <option value="Taxonomia">Taxonomia</option>
+            <option value="Turismo rural">Turismo rural</option>
+            <option value="Vulcanologia">Vulcanologia</option>
+            <option value="Zoologia">Zoologia</option>
+        </select>
 
         <select name="Linguagem" class="form-control mr-2" placeholder="Língua">
             <option value="">Selecionar Linguagem</option>
@@ -79,12 +128,6 @@
             <option value="Português, Inglês e Francês">Português, Inglês e Francês</option>
             <option value="NaN">Sem Dados</option>
         </select>
-
-        <select name="Material" class="form-control mr-2" placeholder="Material">
-            <option value="">Selecionar Material</option>
-            <option value="Não plastificado">Não Plastificado</option>
-            <option value="Plastificado">Plastificado</option>
-        </select>
         <input type="text" name="Ano" class="form-control mr-2" placeholder="Ano">
         <br>
         <button type="submit" class="btn btn-primary">Filtrar</button>
@@ -93,34 +136,24 @@
     <br><br><br>
     <h5 class="lista">LISTAGEM DE LIVROS:</h5>
     <br>
-    <table class="table">
-        <thead>
-        <tr>
-            <th>Titulo</th>
-            <th>Autor</th>
-            <th>Ano</th>
-            <th>Categoria</th>
-            <th>Sub-categoria</th>
-            <th>Língua</th>
-            <th>Material</th>
-        </tr>
-        </thead>
-        <tbody>
-        {% for item in items %}
-            <tr>
-                <td>{{ item.Titulo }}</td>
-                <td>{{ item.Autor }}</td>
-                <td>{{ item.Ano }}</td>
-                <td>{{ item.Categoria }}</td>
-                <td>{{ item.Sub_Categoria }}</td>
-                <td>{{ item.Linguagem }}</td>
-                <td>{{ item.Material }}</td>
-            </tr>
-        {% endfor %}
-        </tbody>
-    </center>
-    </table>
     <br><br>
+    <div class="row">
+        {% for item in items %}
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="{{ item.Imagem }}" class="card-img-top" alt="{{ item.Titulo }}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ item.Titulo }}</h5>
+                        <p class="card-text"><strong>Autor: </strong> {% if item.Autor|length > 20 %}
+                            {{ item.Autor[:17] + '...' }}
+                        {% else %}
+                            {{ item.Autor }}
+                        {% endif %}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 </div>
 <div class="rodape">
     <a href="#">
